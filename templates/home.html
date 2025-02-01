@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safeloncy</title>
+    <link rel="stylesheet"href="/static/css/safe.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navigationbar">
+        <div id="logo">
+            <img src="/static/images/safelogo2.0.png" alt="Safeloncy">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="/static/html/about.html">About</a></li>
+            <li class="item"><a href="/static/html/contact.html">Contact</a></li>
+            <li class="item"><a href="/login">Login</a></li>
+            
+        </ul>
+
+        <div class="togther">
+            <!--      Forgot Password button-->
+            <button class="btn chat-us"><a href= "/static/html/query.html">Ask Query</a></button>
+            <!--     Sign Up button -->
+            <button class="btn document">Chat Us
+                <!--         Sign Up font icon -->
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+            </button>
+            <!--      End Other the Division -->
+        </div>
+
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">GET FREE LEGAL ADVICE FOR
+            <br>
+            ALL YOUR
+            <span class="advisory-head-blue"> LEGAL NEEDS</span>
+        </h1>
+
+        <h4>Get Access to Free Advice from our Experts
+            <br>
+            on your Legal Issues.
+        </h4>
+        <lable>What Happend With You!</lable><br>
+        <textarea name="yourMassage"row="10" cols="30"></textarea><br>
+        {% comment %} <input type="text" id="question-title" class="form-control" style="padding-left: 10px;" maxlength="800"
+            placeholder="Share your problem (Maximum 800 characters)"> {% endcomment %}
+        <!-- onchange="document.getElementById('id_title').value=this.value; -->
+        <button class="bton bton-default">Get Free Legal Advice</button>
+    </section>
+
+
+    <!-- Frequently Asked Question  -->
+    <h2 id="h2Heading1"></h2>
+    <section class="sample-legal-questions">
+        <div id="legal" class="container">
+
+            <h2 class="h2-content no-margin-top">Legal Questions</h2>
+            <div class="sample-legal-questions-content font-null">
+                <div class="sample-legal-questions-item">
+                    <ul>
+                        <li><a href="/static/html/family.html">Questions on family law</a></li>
+                        <li><a href="/static/html/divorce.html">Questions on marriage and divorce</a></li>
+                        <li><a href="/legal-questions/family-law">Questions on alimony and maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="sample-legal-questions-item">
+                    <ul>
+                        <li><a href="/static/html/rsl.html">Questions on Real estate law</a></li>
+                        <li><a href="/static/html/prop.html">Questions on property law</a></li>
+                        <li><a href="/static/html/prop.html">Questions on property and partition</a></li>
+                    </ul>
+                </div>
+                <div class="sample-legal-questions-item">
+                    <ul>
+                        <li><a href="/legal-questions/criminal-law">Questions on criminal law</a></li>
+                        <li><a href="/legal-questions/civil-law">Questions on civil law</a></li>
+                        <li><a href="/legal-questions/business-law">Questions on business law</a></li>
+                    </ul>
+                </div>
+                <div class="sample-legal-questions-item">
+                    <ul>
+                        <li><a href="/legal-questions/labour-law">Questions on labour law</a></li>
+                        <li><a href="/legal-questions/intellectual-property-law">Questions on intellectual property
+                                law</a></li>
+                        <li><a href="/legal-questions">See all legal questions</a></li>
+                    </ul>
+                </div>
+    </section>
+
+
+    <!-- BENEFITS Section  -->
+    <section id="advantages" class="block_padding advantage_dsc">
+        <div class="container">
+            <div class="row">
+                <div class="adventages">
+                    <div class="block_heading">
+                        <h2>Benefits</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-12 advantage_margin">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="advantge_box">
+                                            <i><img src="/static/images/icon1.0-removebg-preview.png" alt="Consultation"></i>
+                                            <h4>Online/Phone Legal Advice V/S In-Person Consultation</h4>
+                                            <p>Saves your transportation cost, saves time, provide urgent
+                                                solutions also convenient for busy clients, privacy maintained
+                                                while discussing over phone and emails.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="advantge_box">
+                                            <i><img src="/static/images/icon7-removebg-preview.png" alt="Less Running"></i>
+                                            <h4>Less Running</h4>
+                                            <p>This entire process is very fuzz-free one can gain advice over a
+                                                short period without worrying about it much.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="advantge_box">
+                                            <i><img src="/static/images/icon8.0-removebg-preview.png" alt="Appropriate Advice"></i>
+                                            <h4>Appropriate Advice</h4>
+                                            <p>Our team of counsel has sound knowledge and would guide you
+                                                according to your requirement.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="advantge_box">
+                                            <i><img src="/static/images/icon9-removebg-preview.png"
+                                                    alt="Maintaining Confidentiality"></i>
+                                            <h4>Maintaining Confidentiality</h4>
+                                            <p>We maintain an end to end privacy concerning any of our clients
+                                                and provide undisclosed service.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="advantge_box">
+                                            <i><img src="/static/images/icon11-removebg-preview.png" alt="No hidden charges"></i>
+                                            <h4>No hidden charges</h4>
+                                            <p>There are no hidden charges levied.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION  -->
+
+    <footer>
+        <div class="container container-fluid" id="sec-container">
+            <div class="row" id="footer-row-bottom">
+
+
+
+                <div id="" class="row">
+                    <div id="footer-logo" class="col-sm-4">
+                        <img alt="Safeloncy" src="/static/images/safelogo2.0.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9"><br>
+                        <span style="color: #e0e0e0;font-size: 13px;">
+                            <i>By agreeing to enter this website, you agree to our <a href="/terms-and-condition/"
+                                    id="tc" style="color: #EB6A2B; text-decoration: underline;">Terms of Service</a> and
+                                <a href="/privacy-policy/" id="tc"
+                                    style="color: #EB6A2B; text-decoration: underline;">Privacy Policy</a>. You agree
+                                that this website cannot be used for advertising or solicitation purposes. All
+                                trademarks and copyrights are the property of Safeloncy.in and belong to their respective
+                                owners. </i>
+                        </span>
+                    </div>
+                    <!-- <div class="col-sm-3 social-txt">
+                            <p>
+                                WE ARE SOCIAL @
+                            </p>
+                            <span>
+                                <a id="facebook-footer-icon" rel="me" href="http://www.facebook.com/lawyered.in" target="_blank">
+                                    <img src="/static/static_pages/footer/images/fb-white.a0c8e7f35a45.png" alt="Facebook | Lawyered" class="social-links" style="height : 20px; width:20px;">
+                                </a>
+                                <a rel="me" href="https://www.linkedin.com/company/lawyered" target="_blank">
+                                    <img src="/static/static_pages/footer/images/link-white.efb1153ba914.png" alt="Linkedin | Lawyered" class="social-links" style="height : 20px; width:20px;">
+                                </a>
+                                <a rel="me" href="https://twitter.com/LawyeredTweets" target="_blank">
+                                    <img src="/static/static_pages/footer/images/twitter.e181d3768727.gif" alt="Twitter | Lawyered" class="social-links" style="height : 17px; width:17px;">
+                                </a>
+                                <a rel="me" href="https://www.instagram.com/lawyered.in/" target="_blank">
+                                    <img src="/static/static_pages/footer/images/instagram.c65b3e549137.png" alt="Instagram | Lawyered" class="social-links" style="height : 17px; width:17px;">
+                                </a>
+                                <a rel="me" href="https://www.youtube.com/c/LawyeredLegalServices" target="_blank">
+                                    <img src="/static/static_pages/footer/images/youtube.6b906aedd911.png" alt="YouTube | Lawyered" class="social-links" style="height : 17px; width:17px;">
+                                </a>
+        
+        
+        
+                            </span>
+                        </div> -->
+                </div>
+            </div>
+    </footer>
+
+
+</body>
+
+</html>
